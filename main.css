@@ -1,0 +1,105 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	background-image: url("cr.jpg");
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+background-size: cover;
+}
+.navbar
+{   background-color: red;
+    width: 100%;
+    height: 53px;
+    margin: 0;
+}
+.head
+{
+	color: white;
+    padding-top: 7px;
+    margin-left: 85px;
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+}
+span
+{
+	color:  #0b30fb;
+
+}
+.menu
+{
+	width: 400px;
+    height: 48px;
+    float: left;
+    margin-left: 356px;
+    margin-top: -37px;
+}
+.menu ul
+{
+float: left;
+display: inline-flex;
+
+
+
+}
+ul li
+{
+    list-style: none;
+    margin-left: 95px;
+    margin-top: 0px;
+    font-size: 18px;
+}
+ul li a 
+{
+text-decoration: none;
+color: white;
+font-weight: bold;
+font-family: sans-serif;
+transition: 0.4s ;
+cursor: pointer;
+}
+ul li a:hover
+{
+	color: #0b30fb;
+	opacity: 0.8;
+}
+ul li a:active
+{
+	opacity: 0.3 ;
+}
+.title
+{
+	position: absolute;
+	top: 40%;
+    left:37%;
+   
+}
+.title h1
+{
+    cursor: pointer;
+    color: white;
+    font-family: cursive;
+    font-size: 61px;
+
+}
+.btn
+{
+	position: absolute;
+	    top: 56%;
+        left: 38%;
+}
+.bn{
+text-decoration: none;
+color: white;
+border: 2px solid ;
+font-size: 20px;
+padding: 5px 20px;
+transition: 0.3s ;
+}
+.bn:hover{
+	background-color: white;
+	color: black;
+}
